@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph {
+    color: purple;
+    background-color: rgb(245, 163, 245);
+    font-style: italic;
+    text-align: center;
+}
+
+#second-paragraph {
+    color: #72b7ac;
+    background-color:#093c34;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background-color: rgb(237, 143, 76);
+    font-family: sans-serif;
+}
+
+#span1 {
+    color:crimson;
+    font-weight: bold;
+    font-size: 24px
+}
+
+#span2 {
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#span3 {
+    background-color: yellow;
+}
+
+#span4 {
+    text-align: right;
+}
