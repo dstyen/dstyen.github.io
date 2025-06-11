@@ -14,5 +14,17 @@
     margin: 24px;
     padding: 24px;
     font-family: 'Gill Sans';
+    text-align: center;
 }
 
+#pink {
+    background-color: pink;
+}
+
+#blue {
+    background-color: lightblue;
+}
+
+#images {
+    width: 80px;
+}
