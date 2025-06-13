@@ -1,0 +1,42 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/   
+.audi, 
+.bmw {
+    width: 80px;
+    border: 10px solid black;
+    background-color: rgb(184, 183, 183);
+    padding: 10px;
+    margin: 50px;
+}
+
+.container {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+}
+
+.mirror {
+    width: 100px;
+    border: 5px solid black;
+    background-color: rgb(184, 183, 183);
+    padding: 5px;
+    margin: 10px;
+}
+
+.text {
+    display: inline-block;
+    border: 5px solid black;
+    width: 50px;
+    font-size: 10px;
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(227, 214, 25);
+    padding: 10px;
+    margin: 10px;
+}
