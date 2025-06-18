@@ -13,24 +13,25 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: 20px;
 }
 
 .first-container {
     background-color: orange;
     padding: 48px 0px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-family: 'Gill Sans';
 }
 
 .second-container {
     background-color: rgb(204, 73, 197);
     padding: 48px 0px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-family: 'Gill Sans';
 }
 
 .third-container {
     background-color: rgb(126, 239, 126);
     padding: 48px 0px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-family: 'Gill Sans';
 }
 
 .style {
@@ -43,4 +44,8 @@ body {
     background-color: white;
     padding: 15px;
     border-radius: 50px;
+}
+
+.image {
+    border-radius: 20px;
 }
