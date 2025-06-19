@@ -16,6 +16,7 @@ body {
 #sidebar-content {
     background-color: #c6e9fe; 
     width: 250px;
+    height: 300px;
     padding: 24px;
     margin: 0px 0px 0px 24px;
     border: 2px solid #218ad0;
@@ -54,4 +55,8 @@ body {
 #sticky-sidebar {
     position: sticky;
     top: 24px;
+}
+
+.bible {
+    width: 300px;
 }
