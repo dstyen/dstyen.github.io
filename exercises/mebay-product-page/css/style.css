@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#three-columns {
+    display: flex;
+}
+
+#column-1 {
+    background-color: #dae9e9;
+    width: 250px;
+    padding: 48px;
+}
+
+#column-2 {
+    /* background-color: aqua; */
+    flex: 1;
+    padding: 24px;
+}
+
+#column-3 {
+    background-color: bisque;
+    flex: 1;
+    padding: 48px;
+}
+
+#column-2 img {
+    width: 500px;
+    border-radius: 25px;
+}
