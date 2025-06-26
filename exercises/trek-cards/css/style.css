@@ -30,6 +30,7 @@
 }
 
 .card-style-1 a {
+    display: block;
     background-color: green;
     color: #f1fce8;
     text-decoration: none;
