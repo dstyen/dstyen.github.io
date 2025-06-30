@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/giraffe.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero-1 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+}
+
+#hero-1 h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #493207;
+}
+
+#hero-1 h3 {
+    font-size: 24px;
+    color: #9e6f18;
+    margin-bottom: 50px;
+}
+
+#hero-1 a {
+    color: white;
+    font-size: 18px;
+    background-color: #493207;
+    padding: 18px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+#hero-1 a:hover {
+    color: black;
+    border: 3px solid black;
+}
+
+#hero-2 {
+    background-image: url("../images/car.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    text-align: center;
+}
+
+#hero-2 .hero-content {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+#hero-2 h1 {
+    color: #5c8fdd;
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+
+#hero-2 h3 {
+    font-size: 26px;
+    color: #424242;
+    margin-bottom: 72px;
+}
+
+#hero-2 a {
+    color: #dcdada;
+    font-size: 20px;
+    background-color: #5c8fdd;
+    padding: 18px;
+    text-decoration: none;
+}
+
+#hero-2 a:hover {
+    color: black;
+    border: 3px solid black;
+}
+
+#hero-3 {
+    background-image: url("../images/forrest.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    text-align: center;
+}
+
+#hero-3 .hero-content {
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#hero-3 h1 {
+    color: #064b1c;
+    font-size: 72px;
+    margin-bottom: 50px;
+}
+
+#hero-3 h3 {
+    font-size: 32px;
+    color: #131313;
+    margin-bottom: 72px;
+}
+
+#hero-3 a {
+    color: #dcdada;
+    font-size: 24px;
+    background-color: #064b1c;
+    padding: 18px;
+    text-decoration: none;
+}
+
+#hero-3 a:hover {
+    color: black;
+    border: 3px solid black;
+}
