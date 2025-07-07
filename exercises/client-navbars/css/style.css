@@ -7,30 +7,55 @@ body {
     font-family: sans-serif;
 }
 
-#navbar {
-    background: linear-gradient(to bottom, green, #3e6d3e);
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+}
+
+#navbar-1 {
+    background: linear-gradient(to bottom, #D1D8BE, #AEC8A4);
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
-#navbar a {
+#navbar-1 a {
     text-decoration: none;
-    color: white;
+    color: #8A784E;
     padding: 24px;
 }
 
-#navbar img {
-    width: 200px;
-}
-
-#navbar #logo {
+#navbar-1 #name {
     margin-right: auto;
 }
 
-#navbar .cta-button {
-    background-color: white;
-    color: green;
+#navbar-1,
+#navbar-2, 
+#navbar-3 {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-2 {
+    background: linear-gradient(to bottom, #FFB22C, #FA812F);
+    display: flex;
+    align-items: center;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: #7D0A0A;
+    padding: 24px;
+}
+
+#navbar-2 #name {
+    margin-right: auto;
+}
+
+#navbar-2 .cta-button {
+    background-color: #f7e9d5;
+    color: #FA812F;
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
@@ -40,20 +65,48 @@ body {
     margin-right: 24px;
 }
 
-#layout {
-    width: 800px;
-    margin: 48px auto;
-    font-size: 24px;
-    height: 200vh;
+#navbar-3 {
+    background: linear-gradient(to bottom, #7a3104, #cf5e13);
+    display: flex;
+    align-items: center;
 }
 
-#navbar {
-    position: sticky;
-    top: 0px;
+#navbar-3 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar-3 #name {
+    margin-right: auto;
+}
+
+#navbar-3 .cta-button {
+    background-color: #020202;
+    color: white;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar-top {
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar-top h3 {
+    text-decoration: none;
+    color: #7da826;
+    padding: 16px 24px;
 }
 
 #navbar-bottom {
-    background: linear-gradient(to bottom, yellowgreen, olive);
+    background: linear-gradient(to bottom, #7da826, #405b02);
     display: flex;
     justify-content: space-between;
 }
