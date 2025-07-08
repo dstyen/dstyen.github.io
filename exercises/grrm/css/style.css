@@ -459,12 +459,12 @@ body {
     }
 
     #nav {
-        flex-direction: row;
+        flex-wrap: wrap;
         flex: 150px;
     }
 
     #nav a {
-        width: 250px;
+        width: 200px;
     }
 }
 
@@ -517,12 +517,11 @@ body {
     }
 
     #nav {
-        flex-direction: column;
+        flex-wrap: wrap;
         flex: 150px;
-        align-items: center;
     }
 
     #nav a {
-        width: 200px;
+        width: 150px;
     }
 }
