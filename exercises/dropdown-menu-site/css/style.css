@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #55bfec;
+    /* background-image: url("..image/water.jpg"); */
+}
+
+#navbar {
+    background: linear-gradient(
+        to bottom,
+        #109cb8,
+        #0E5B96
+    );
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+#navbar a:hover {
+    background-color: #0E5B96;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: #0E5B96;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: #5d98c5;
+}
+
+#hero {
+    background-image: url("../images/hero1.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center; 
+    position: relative;
+    z-index: -1;
+}
+
+#hero .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    text-align: center;
+    margin: 50px;
+}
+
+#hero h2 {
+    font-size: 36px;
+    color: white;
+}
+
+#hero h4 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 24px;
+}
+
+#hero a {
+    font-size: 16px;
+    display: inline-block;
+    background-color: #0E5B96;
+    color: white;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 24px;
+}
+
+.single-column {
+    background-color: #fcfcfb;
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.single-column img {
+    width: 400px;
+}
+
+.single-column h1 {
+    padding-top: 24px;
+}
+
+.single-column p {
+    padding: 0px 24px 24px;
+}
+
+@media screen and (max-width: 1047px) {
+    #hero .hero-content {
+        flex-direction: row;
+        align-items: center;
+        max-width: 400px;
+        height: 100px;
+    }
+}
