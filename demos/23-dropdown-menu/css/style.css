@@ -68,3 +68,6 @@ body {
     background: slateblue;
 }
 
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
