@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,18 +7,18 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: #55bfec;
-    /* background-image: url("..image/water.jpg"); */
+    background-image: url("../images/water.jpg");
 }
 
 #navbar {
     background: linear-gradient(
         to bottom,
-        #109cb8,
+        #55bfec,
         #0E5B96
     );
     display: flex;
     align-items: center;
+    font-family: "Yusei Magic", sans-serif;
 }
 
 #navbar a {
@@ -70,22 +72,24 @@ body {
     background-image: url("../images/hero1.webp");
     height: 100vh;
     background-size: cover;
-    background-position: center center; 
+    background-position: center right; 
     position: relative;
     z-index: -1;
 }
 
 #hero .hero-content {
     position: absolute;
-    top: 10%;
-    left: 55%;
+    top: 5%;
+    right: 2%;
     text-align: center;
-    margin: 50px;
+    margin: 46px;
+    max-width: 500px;
 }
 
 #hero h2 {
     font-size: 36px;
     color: white;
+    font-family: "Yusei Magic", sans-serif;
 }
 
 #hero h4 {
@@ -102,15 +106,17 @@ body {
     border-radius: 24px;
     text-decoration: none;
     padding: 24px;
+    font-family: "Yusei Magic", sans-serif;
 }
 
 .single-column {
-    background-color: #fcfcfb;
+    background-color: #fcfcfc;
     width: 50%;
-    min-width: 500px;
-    margin: 0px auto;
+    width: 500px;
+    margin: 50px auto;
     text-align: center;
     border-radius: 24px;
+    border: 4px solid #0E5B96;
 }
 
 .single-column img {
@@ -119,17 +125,56 @@ body {
 
 .single-column h1 {
     padding-top: 24px;
+    color: #0E5B96;
+    font-family: "Yusei Magic", sans-serif;
 }
 
 .single-column p {
-    padding: 0px 24px 24px;
+    padding: 0px 24px 24px 24px;
 }
 
-@media screen and (max-width: 1047px) {
+@media screen and (max-width: 1150px) {
     #hero .hero-content {
-        flex-direction: row;
-        align-items: center;
         max-width: 400px;
-        height: 100px;
+        top: 2%;
+        right: 5%;
+        margin: 24px;
+    }
+}
+
+@media screen and (max-width: 684px) {
+    #navbar #logo {
+        font-size: 28px;
+        padding: 18px;
+    }
+
+    .single-column {
+        width: 400px;
+    }
+
+    .single-column img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #navbar #logo {
+        font-size: 24px;
+        padding: 14px;
+    }
+}
+
+@media screen and (max-width: 494px) {
+    #navbar #logo {
+        font-size: 24px;
+        padding: 14px;
+    }
+
+    .single-column {
+        width: 350px;
+    }
+
+    .single-column img {
+        width: 250px;
     }
 }
