@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header {
+    background: linear-gradient(to top, #ecd2ab, #947546);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#header a {
+    display: inline-flex;
+    text-decoration: none;
+    color: #498463;
+    padding: 24px;
+    font-size: 18px;
+}
+
+#header #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+#header .cta-button {
+    color: #ffffff;
+    background-color: #498463;
+    padding: 12px;
+    font-weight: bold;
+    margin-right: 24px;
+}
+
+#header .cta-button:hover {
+    background-color: #498463b6;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#header #logo img {
+    width: 100px;
+}
+
+#footer {
+    background: linear-gradient(to bottom, #ecd2ab, #947546);
+    color: white;
+    padding: 12px;
+}
+
+#footer-columns-navbar {
+    width: 700px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer h3 {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#hero {
+    background-image: 
+        linear-gradient(#a3966f1f, #2019038f),
+        url("../images/hero.jpeg");
+    height: 75vh;
+    background-size: cover;
+    background-position: center center ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    position: relative;
+    justify-content: center;
+    top: 16%;
+    left: 2%;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 72px;
+    color: #ffffff;
+    margin: 0px;
+    text-shadow: 4px 3px 3px #060606;
+}
+
+#hero h4 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 30px;
+    color: #ffffff;
+    text-shadow: 4px 3px 7px #060606;
+}
+
+#hero a {
+    font-size: 18px;
+    display: inline-block;
+    background-color: #498463;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 18px;
+}
+
+#hero a:hover {
+    background-color: #498463b6;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
