@@ -7,20 +7,19 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url("../images/background.jpg");
 }
 
 #header {
     background: linear-gradient(to top, #ecd2ab, #947546);
     display: flex;
     align-items: center;
-    /* position: sticky;
-    top: 0px; */
 }
 
 #header a {
     display: inline-flex;
     text-decoration: none;
-    color: #498463;
+    color: black;
     padding: 24px;
     font-size: 18px;
 }
@@ -86,7 +85,6 @@ body {
     position: relative;
     justify-content: center;
     top: 16%;
-    left: 2%;
     text-align: center;
 }
 
@@ -123,7 +121,7 @@ body {
 
 .single-column {
     padding: 24px;
-    background-color: black; 
+    background-color: black;
 }
 
 .side-by-side {
@@ -131,7 +129,6 @@ body {
     align-items: center;
     margin: 0px 20px;
 }
-
 
 .side-by-side .image-container {
     flex: 1;
@@ -167,4 +164,100 @@ body {
     background-color: #498463b6;
     box-shadow: 3px 2px 3px #ffffff87;
     transform: translateY(-4px);
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#layout h1 {
+    color: white;
+}
+
+.cropped-grid-gallery {
+    border: 10px solid #947546;
+    background-color: white;
+    padding: 24px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 24px;
+    margin: 0px;
+}
+
+.cropped-grid-gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cropped-grid-gallery h2 {
+    margin-bottom: 0px;
+}
+
+.cropped-grid-gallery h3 {
+    color: #498463;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.cropped-grid-gallery h4 {
+    color: #498463;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.side-by-side2 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+#container img {
+    height: 400px;
+}
+
+@media screen and (max-width: 1082px) {
+    .side-by-side {
+        flex-direction: column;
+    }
+
+    .side-by-side #media {
+        order: 1;
+    }
+
+    .side-by-side .text-container {
+        justify-content: center;
+    }
+
+    .cropped-grid-gallery {
+        margin: 24px;
+    }
+
+    .box-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 723px) {
+    #header {
+        flex-direction: column;
+    }
+
+    #header .cta-button {
+        margin: 0px 0px 18px 0px;
+    }
+
+    #header #logo {
+        margin: auto;
+    }
+
+    #footer h3 {
+        font-size: 14px;
+    }
 }
