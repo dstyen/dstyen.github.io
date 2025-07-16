@@ -245,7 +245,8 @@ h1 {
     }
 
     .side-by-side .text-container {
-        justify-content: center;
+        text-align: center;
+        
     }
 
     .cropped-grid-gallery {
