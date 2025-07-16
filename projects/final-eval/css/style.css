@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -8,6 +9,8 @@ body {
 }
 
 .single-center-column {
+    font-family: "Neuton", serif;
+    font-weight: bold;
     background-color: #ffffff;
     width: 600px;
     margin: 0px auto;
@@ -27,11 +30,11 @@ body {
 }
 
 .single-center-column .heading {
-    margin: 60px 0px;
+    padding: 20px 0px;
 }
 .single-center-column .heading h1 {
-    font-size: 48px;
-    margin: auto;
+    font-size: 60px;
+    margin: 20px;
 }
 
 .single-center-column h1 {
