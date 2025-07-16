@@ -254,7 +254,8 @@ h1 {
 
     .box-container {
         grid-template-columns: 1fr;
-        
+        width: 300px;
+        margin: 0px auto;
     }
 }
 
