@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -22,6 +22,7 @@ body {
     color: black;
     padding: 24px;
     font-size: 18px;
+    font-family: "Besley", serif;
 }
 
 #header #logo {
@@ -55,6 +56,7 @@ body {
     padding: 12px;
     display: flex;
     padding: 0px 24px;
+    font-family: "Besley", serif;
 }
 
 #footer-columns-navbar {
@@ -86,6 +88,7 @@ body {
     justify-content: center;
     top: 16%;
     text-align: center;
+    font-family: "Besley", serif;
 }
 
 #hero h2 {
@@ -98,8 +101,7 @@ body {
 #hero h4 {
     font-size: 30px;
     font-style: italic;
-    font-weight: bold;
-    margin: 30px;
+    margin-bottom: 30px;
     color: #ffffff;
     text-shadow: 4px 3px 7px #060606;
 }
@@ -111,6 +113,7 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 18px;
+    margin: 24px;
 }
 
 #hero a:hover {
@@ -122,6 +125,7 @@ body {
 .single-column {
     padding: 24px;
     background-color: black;
+    font-family: "Besley", serif;
 }
 
 .side-by-side {
@@ -179,7 +183,7 @@ body {
 .cropped-grid-gallery {
     border: 10px solid #947546;
     background-color: white;
-    padding: 24px;
+    font-family: "Besley", serif;
 }
 
 .box-container {
@@ -206,6 +210,11 @@ body {
     margin-bottom: 10px;
 }
 
+h1 {
+    font-family: "Besley", serif;
+    text-shadow: 4px 4px 5px black;
+}
+
 .cropped-grid-gallery h4 {
     color: #498463;
     margin-top: 5px;
@@ -216,6 +225,10 @@ body {
     display: flex;
     justify-content: center;
     gap: 100px;
+}
+
+#container {
+    padding: 24px;
 }
 
 #container img {
@@ -241,6 +254,7 @@ body {
 
     .box-container {
         grid-template-columns: 1fr;
+        
     }
 }
 
