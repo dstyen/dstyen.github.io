@@ -246,7 +246,7 @@ h1 {
 
     .side-by-side .text-container {
         text-align: center;
-        
+        padding: 0px; 
     }
 
     .cropped-grid-gallery {
@@ -260,7 +260,7 @@ h1 {
     }
 }
 
-@media screen and (max-width: 723px) {
+@media screen and (max-width: 757px) {
     #header {
         flex-direction: column;
     }
@@ -275,5 +275,36 @@ h1 {
 
     #footer h3 {
         font-size: 14px;
+    }
+
+    #hero h2 {
+        font-size: 56px;
+    }
+
+    #hero h4 {
+        font-size: 22px;
+    }
+
+    #hero a {
+        font-size: 16px;
+        margin: 14px;
+    }
+
+    .side-by-side .text-container h3 {
+        font-size: 30px;
+    }
+
+    .side-by-side .text-container a {
+        font-size: 16px;
+        padding: 18px;
+    }
+
+    .side-by-side .image-container img {
+        width: 400px;
+    }
+
+    .side-by-side2 {
+        font-size: 14px;
+        padding: 0px 8px;
     }
 }
