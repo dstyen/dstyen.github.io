@@ -46,6 +46,10 @@ body {
     transform: translateY(-4px);
 }
 
+#header .button:hover {
+    color: white;
+}
+
 #header #logo img {
     width: 100px;
 }
