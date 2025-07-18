@@ -11,7 +11,7 @@ body {
 }
 
 #header {
-    background: linear-gradient(to top, #ecd2ab, #947546);
+    background-color: #bb9865;
     display: flex;
     align-items: center;
 }
@@ -48,6 +48,7 @@ body {
 
 #header .button:hover {
     color: white;
+    text-decoration: underline;
 }
 
 #header #logo img {
@@ -55,8 +56,8 @@ body {
 }
 
 #footer {
-    background: linear-gradient(to bottom, #ecd2ab, #947546);
-    color: white;
+    background-color: #bb9865;
+    color: black;
     padding: 12px;
     display: flex;
     padding: 0px 24px;
@@ -184,7 +185,7 @@ body {
 }
 
 .cropped-grid-gallery {
-    border: 10px solid #947546;
+    border: 10px solid #bb9865;
     background-color: white;
     font-family: "Besley", serif;
 }
@@ -330,7 +331,6 @@ h1 {
     #header a {
         font-size: 12px;
     }
-
 
     #hero h2 {
         font-size: 40px;
